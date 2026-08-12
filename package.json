@@ -1,0 +1,30 @@
+{
+  "name": "arquitectura-por-capas",
+  "version": "1.0.0",
+  "description": "En este proyecto, desarrollarás una API RESTful utilizando Express y MongoDB que permitirá realizar operaciones CRUD sobre una colección de perros.",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalogianelli/Arquitectura-por-capas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzalogianelli/Arquitectura-por-capas/issues"
+  },
+  "homepage": "https://github.com/gonzalogianelli/Arquitectura-por-capas#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2"
+  }
+}
